@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LAB 01</title>
+    <!-- Internal CSS Style Element -->
+    <style>
+      body {
+        background-color: gray;
+      }
+
+      h1 {
+        text-align: center;
+        background-color: pink;
+        color: blue;
+      }
+      
+      p {
+        padding: 4px 12px; 
+        font-size: 16px;  
+        line-height: 20px; 
+        text-align: center;
+        vertical-align: middle;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <body>
+    <header>
+      <h1>The Best Trip of your life!</h1>
+    </header>
+    <main>
+      <!-- Inline CSS styling -->
+      <p style="background-color: red; color: white ">What is your name?</p>
+      <p style="background-color: blue; color: white">Where would you like to travel?</p>
+      <p style="background-color: purple; color: white">How many days would you stay there?</p>
+      <p style="background-color: orangered; color: white">Who would you bring with you?</p>
+    </main>
+    <footer></footer>
+    <!-- Internal Script Tag -->
+    <script>
+      console.log('hey world heyyyy!');
+
+      let userResponseOne = prompt('What is your name?');
+      console.log('user response to Q1: ', userResponseOne);
+      alert('Hey ' + userResponseOne + '! Welcome to my site!');
+
+      let userResponseTwo = prompt('Where would you like to travel?');
+      alert('Nice! ' + userResponseOne + ', ' + userResponseTwo + ' sounds like a great place!');
+
+      let userResponseThree = prompt('How many days would you stay there?');
+      alert( userResponseThree + ' is a perfect amount!');
+
+      let userResponseFour = prompt('Who would you bring with you?');
+      alert('Great ' + userResponseOne + '! '+ 'I hope you have a nice time spending ' + userResponseThree + ' in ' + userResponseTwo + ' with ' + userResponseFour + '!');
+
+    </script>
+  </body>
+</html>
